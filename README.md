@@ -124,6 +124,7 @@ JupyterLabを入れる前に、Cloud9のデフォルトではディスク容量�
     ```bash
     sudo yum update -y
     pip3 install jupyterlab
+    pip3 install ipyleaflet
     jupyter labextension install @jupyter-widgets/jupyterlab-manager
     jupyter nbextension install ipyleaflet --user --py
     jupyter nbextension enable ipyleaflet --user --py
